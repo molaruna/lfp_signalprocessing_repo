@@ -21,6 +21,7 @@ Note: If adding additional files to the analysis, ``omega_fileinfo`` needs to be
 All raw data are cleaned and figures are generated using ```main```. The outputs are in the **plots** directory. You can comment and uncomment the figures you want to run. 
 
 ## Notes
+This pipeline is currently in progress. Estimated completion date: June 1st, 2021.
 
 ## License
 This software is open source and under an MIT license. 
