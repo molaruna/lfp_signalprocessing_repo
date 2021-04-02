@@ -1,0 +1,7 @@
+#exclude
+data/*
+plots/*
+
+#exception to exclusion criteria
+!data/.gitkeep
+!plots/.gitkeep
