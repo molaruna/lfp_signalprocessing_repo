@@ -14,7 +14,7 @@ These data are available on UCSF Box, [here](https://ucsf.app.box.com/folder/110
 ### Session data
 These data contain the parameters of the (1) file path information of the intraoperative data, (2) output file names, and (3) parameters from the data collection session. They are available on Google Drive, [here](https://drive.google.com/drive/folders/1T3N4dQ10HVzouxdyRDZo3aWQQjGMHfQi?usp=sharing). You will first need to request access from me. Upload the dataset into the **data** directory to implement this code. 
 
-Note: If adding additional files to the analysis, omega_fileinfo.csv needs to be completed for that specified file for the pipeline to run. There is an additional README in the **data** directory that contains the column coding convention.
+Note: If adding additional files to the analysis, ``omega_fileinfo`` needs to be completed for that specified file entry. There is an additional README in the **data** directory that contains the column coding convention.
 
 ## Analysis + figures
 
