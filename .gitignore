@@ -1,7 +1,9 @@
 #exclude
 data/*
 plots/*
+.DS_Store
 
 #exception to exclusion criteria
 !data/.gitkeep
+!data/README.md
 !plots/.gitkeep
