@@ -1,6 +1,6 @@
 # lfp_signalprocessing_repo
 
-This code uses the comodulogram algorithm to run identical PACs (power-amplitude coupling) analysis with lfp (local field potential) data collected (1) intraoperatively with the Omegatron and (2) post-operatively with the RC+S neural implant device. 
+This code uses the comodulogram algorithm to run identical PACs (power-amplitude coupling) analysis with lfp (local field potential) data recorded (1) intraoperatively with the Megatron and (2) post-operatively with the RC+S neural implant device. 
 
 ## Getting Started
 
