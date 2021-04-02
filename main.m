@@ -11,8 +11,14 @@
 %% Omega intraop data
 % INITIALIZE
 
-% Note: this table needs to be completed for RCS subject for code to run
-sessiondata_dir = '~/google_drive/UCSF_Neuroscience/starr_lab/intrapostop/data/';
+% Get repo parent directory path
+fp = matlab.desktop.editor.getActiveFilename;
+fp = convertCharsToStrings(fp);
+fp = extractBefore(fp, "main");
+
+addpath(fp + "/functions/");
+
+sessiondata_dir = 'fp/data/';
 fileinfo_fp = append(sessiondata_dir, 'omega_fileinfo.csv');
 renamelog_fp = append(sessiondata_dir, 'omega_filerename_log.csv'); %log file
 
